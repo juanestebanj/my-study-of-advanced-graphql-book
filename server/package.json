@@ -1,0 +1,32 @@
+{
+  "name": "repo",
+  "version": "1.0.0",
+  "description": "This is my study log and code related to the book: Advanced GraphQL with Apollo &amp; React. This is the book's description https://8bit.press/book/advanced-graphql",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config -r esm ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanestebanj/my-study-of-advanced-graphql-book.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanestebanj/my-study-of-advanced-graphql-book/issues"
+  },
+  "homepage": "https://github.com/juanestebanj/my-study-of-advanced-graphql-book#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.19.0",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "graphql": "^15.4.0",
+    "log4js": "^6.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
